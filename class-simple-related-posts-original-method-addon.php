@@ -1,4 +1,5 @@
 <?php
+if ( class_exists('Simple_Related_Posts_Base') ) :
 class Simple_Related_Posts_Addon extends Simple_Related_Posts_Base {
 	
 	/**
@@ -23,3 +24,4 @@ class Simple_Related_Posts_Addon extends Simple_Related_Posts_Base {
 		return $post_ids;
 	}
 }
+endif;
