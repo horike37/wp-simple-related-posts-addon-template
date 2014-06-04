@@ -29,7 +29,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
 add_action( 'sirp_target_option', 'srip_original_method_options' );
 function srip_original_method_options($target) {
-	echo '<label for="sirp_target_original_method"><input id="sirp_target_original_method" name="srp_options[target]" type="radio" '.checked( $target, 'Simple_Related_Posts_Addon', false ).' value="Simple_Related_Posts_Addon" />' . __( 'View Related Posts based on Original Method' ) . '</label>';
+	echo '<label for="sirp_target_original_method"><input id="sirp_target_original_method" name="sirp_options[target]" type="radio" '.checked( $target, 'Simple_Related_Posts_Addon', false ).' value="Simple_Related_Posts_Addon" />' . __( 'View Related Posts based on Original Method' ) . '</label>';
 }
 
 add_action( 'sirp_addon_requirement', 'sirp_addon_requirement_original_method' );
